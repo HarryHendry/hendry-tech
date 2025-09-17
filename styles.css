@@ -249,13 +249,30 @@ padding: 1rem;
 }
 
 .card-summary {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
     padding: 1.9rem 1.3rem;
     font-size: 1.4rem;
     line-height: 1.4;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.card-summary button {
+    padding: 1rem 2rem;
+    background-color: #222831;
+    color: white;
+   box-shadow: 0 8px 20px rgba(79, 70, 229, 0.3);
+    border-radius: 8px;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.card-summary button a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
 }
 
 
