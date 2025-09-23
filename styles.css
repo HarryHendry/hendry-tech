@@ -65,13 +65,23 @@ body {
 }
 
 .hero-img {
-    height: 9.3rem;
-    width: 9.3rem;
-    border-radius: 50%;
+    height: 13.3rem;
+    width: 13.3rem;
+ 
     object-fit: cover;
-    border: 5px solid #222831;
+   animation: spin 5s linear infinite;
     margin-bottom: 1rem;
 }
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .hero-img-suitcase {
     height: 6.3rem;
     width: 6.3rem;
