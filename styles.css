@@ -79,6 +79,7 @@ header {
     margin-bottom: 2rem;
     flex-direction: column;
 }
+/* 
 
 @media only screen and (max-width: 970px) {
     .hamburger {
@@ -131,6 +132,7 @@ header {
 
 
 }
+    */
 
 .hero-img {
     height: 13.3rem;
